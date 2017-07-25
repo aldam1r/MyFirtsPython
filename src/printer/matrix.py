@@ -3,5 +3,5 @@
 # File:         matrix.py
 # Author:       Pieter Holthuijsen
 # ================================================
-def Matrix ():
+def Matrix():
     print("This is Matrix")

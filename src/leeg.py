@@ -8,6 +8,8 @@ import calendar
 
 import time
 
+import printer
+
 gPar = "Global 1"
 
 def doiets():
@@ -99,3 +101,6 @@ def docontent():
 # gPar = doreturn() # Not manditory. Function can replace or set a global when global is referenced.
 # print("Global in main: " + gPar)
 # docontent()
+printer.inktjet.Inktjet()
+printer.Laser()
+printer.Matrix()

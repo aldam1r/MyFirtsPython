@@ -3,5 +3,5 @@
 # File:         inktjet.py
 # Author:       Pieter Holthuijsen
 # ================================================
-def Inktjet ():
+def Inktjet():
     print("This is Inktjet")

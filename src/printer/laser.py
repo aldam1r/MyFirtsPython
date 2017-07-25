@@ -3,5 +3,5 @@
 # File:         laser.py
 # Author:       Pieter Holthuijsen
 # ================================================
-def Laser ():
+def Laser():
     print("This is Laser")
