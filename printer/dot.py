@@ -3,5 +3,5 @@
 # File:         dot.py
 # Author:       Pieter Holthuijsen
 # ================================================
-def Dot():
+def dot():
     print("This is Dot")

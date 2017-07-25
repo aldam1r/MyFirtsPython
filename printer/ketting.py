@@ -3,5 +3,5 @@
 # File:         ketting.py
 # Author:       Pieter Holthuijsen
 # ================================================
-def Ketting():
+def ketting():
     print("This is Ketting")
