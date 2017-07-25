@@ -1,7 +1,7 @@
 # ================================================
 # Project:      MyFirstPython
-# File:         __init__.py
+# File:         dot.py
 # Author:       Pieter Holthuijsen
 # ================================================
-from dot import dot
-from ketting import ketting
+def fdot():
+    print("This is Dot")

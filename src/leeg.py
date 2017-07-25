@@ -105,5 +105,5 @@ def docontent():
 # gPar = doreturn() # Not manditory. Function can replace or set a global when global is referenced.
 # print("Global in main: " + gPar)
 # docontent()
-printer.dot.Dot()
-printer.ketting.Ketting()
+printer.dot.fdot()
+printer.ketting.fketting()

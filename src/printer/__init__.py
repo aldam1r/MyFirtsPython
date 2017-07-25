@@ -1,7 +1,7 @@
 # ================================================
 # Project:      MyFirstPython
-# File:         dot.py
+# File:         __init__.py
 # Author:       Pieter Holthuijsen
 # ================================================
-def dot():
-    print("This is Dot")
+from printer.dot import *
+from printer.ketting import *
