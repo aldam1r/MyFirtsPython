@@ -8,6 +8,7 @@ import calendar
 
 import time
 
+gPar = "Global 1"
 
 def doiets():
     a = str(input("Username: "))
@@ -70,6 +71,18 @@ def dotime2():
     print("Time: "+a)
 
 
+def doreturn():
+    lPar = "Local 1"
+    global gPar
+    gPar = lPar
+    print("Global in function: "+gPar)
+    return gPar
+
+def docontent():
+    content=dir(time)
+    print(content)
+
+
 # doiets()
 # doiter()
 # dofibonacci()
@@ -79,3 +92,10 @@ def dotime2():
 # docalendar()
 # dotime1()
 # dotime2()
+# print("Global in main: " + gPar)
+# doreturn()
+# print("Global in main: " + gPar)
+# print("\n")
+# gPar = doreturn() # Not manditory. Function can replace or set a global when global is referenced.
+# print("Global in main: " + gPar)
+# docontent()
