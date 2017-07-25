@@ -1,8 +1,8 @@
-#================================================
+# ================================================
 # Project:      MyFirstPython
 # File:         solver.py
 # Author:       Pieter Holthuijsen
-#================================================
+# ================================================
 
 import math
 from decimal import *
@@ -26,4 +26,3 @@ class Solver:
                     print('Error')
 
 Solver().calculate()
-
