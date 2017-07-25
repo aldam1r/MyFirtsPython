@@ -1,7 +1,5 @@
 # ================================================
 # Project:      MyFirstPython
-# File:         matrix.py
+# File:         __init__.py.py
 # Author:       Pieter Holthuijsen
 # ================================================
-def Matrix():
-    print("This is Matrix")

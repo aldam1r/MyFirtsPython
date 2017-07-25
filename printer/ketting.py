@@ -1,7 +1,7 @@
 # ================================================
 # Project:      MyFirstPython
-# File:         laser.py
+# File:         ketting.py
 # Author:       Pieter Holthuijsen
 # ================================================
-def Laser():
-    print("This is Laser")
+def Ketting():
+    print("This is Ketting")

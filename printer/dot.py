@@ -1,7 +1,7 @@
 # ================================================
 # Project:      MyFirstPython
-# File:         inktjet.py
+# File:         dot.py
 # Author:       Pieter Holthuijsen
 # ================================================
-def Inktjet():
-    print("This is Inktjet")
+def Dot():
+    print("This is Dot")
