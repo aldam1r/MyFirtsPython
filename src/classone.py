@@ -41,7 +41,7 @@ try:
         e1.displayCount() # Error
     except NameError:
         print("Error: Object does not exist.")
-    e2.displayCount()
+     e2.displayCount()
 
 except NameError:
     print("Error: Object does not exist.")
