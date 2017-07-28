@@ -1,6 +1,6 @@
  # ================================================
 # Project:      MyFirstPython
-# File:         classt3.py
+# File:         class3.py
 # Author:       Pieter Holthuijsen
 # ================================================
 
