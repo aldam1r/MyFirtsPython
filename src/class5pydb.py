@@ -4,11 +4,17 @@
 # Author:       Pieter Holthuijsen
 # ================================================
 
+from warnings import filterwarnings
 
-from pymysql import *
+
+import pymysql
+
+db = pymysql.connect("192.168.178.151","pyuser","PyUser-123","pydb")
+
+filterwarnings('ignore', category = db.Warning)
 
 def connectiontest():
-    db = pymysql.connect("192.168.178.101","testuser","Test-123","pydb")
+    # db = pymysql.connect("192.168.178.151","pyuser","PyUser-123","pydb")
     cursor = db.cursor()
     cursor.execute("select version();")
     data = cursor.fetchone()
@@ -16,7 +22,7 @@ def connectiontest():
     db.close ()
 
 def droptable():
-    db = pymysql.connect("192.168.178.101","testuser","Test-123","pydb")
+    # db = pymysql.connect("192.168.178.101","testuser","Test-123","pydb")
     cursor = db.cursor()
     stmt = """drop table if exists employee"""
     cursor.execute(stmt)
@@ -37,5 +43,5 @@ def cretable():
 
 
 # connectiontest()
-# droptable()
+droptable()
 # cretable()
