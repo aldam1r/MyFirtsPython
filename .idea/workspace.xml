@@ -2,29 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5dfd37b-5664-46d2-913a-5bdd0731049c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/class3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/class3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/moduletest.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/moduletest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1921909528">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="307" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="307" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="MyFirstPython" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="moduletest.py" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/moduletest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state>
+              <caret selection-end-line="4" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/email.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -74,7 +109,6 @@
         <option value="$PROJECT_DIR$/src/classtwo.py" />
         <option value="$PROJECT_DIR$/src/classthree.py" />
         <option value="$PROJECT_DIR$/src/class2.py" />
-        <option value="$PROJECT_DIR$/src/moduletest.py" />
         <option value="$PROJECT_DIR$/src/leeg.py" />
         <option value="$PROJECT_DIR$/src/class5pydb.py" />
         <option value="$PROJECT_DIR$/src/server.py" />
@@ -83,11 +117,14 @@
         <option value="$PROJECT_DIR$/src/class3.py" />
         <option value="$PROJECT_DIR$/src/class1.py" />
         <option value="$PROJECT_DIR$/src/class4.py" />
+        <option value="$PROJECT_DIR$/src/moduletest.py" />
+        <option value="$PROJECT_DIR$/src/email.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2034" />
+    <option name="x" value="352" />
+    <option name="y" value="10" />
     <option name="width" value="1548" />
     <option name="height" value="1000" />
   </component>
@@ -485,26 +522,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2034" y="0" width="1548" height="1000" extended-state="0" />
+    <frame x="352" y="10" width="1548" height="1000" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22781457" />
-      <window_info anchor="bottom" id="TODO" order="5" weight="0.3298731" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5110966" side_tool="true" weight="0.3283237" />
-      <window_info anchor="bottom" x="1971" y="384" width="1510" height="266" id="Version Control" order="6" sideWeight="0.5092715" side_tool="true" weight="0.30645162" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32949308" />
-      <window_info anchor="bottom" x="1997" y="693" width="749" height="266" id="Run" order="4" sideWeight="0.49072847" weight="0.30645162" />
-      <window_info anchor="bottom" id="Structure" order="13" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32949308" />
-      <window_info anchor="bottom" id="Favorites" order="12" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22781457" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="1" sideWeight="0.49710983" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
+      <window_info anchor="bottom" x="1997" y="693" width="749" height="266" id="Run" order="4" sideWeight="0.49072847" weight="0.30645162" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.3298731" />
+      <window_info active="true" anchor="bottom" x="1971" y="384" width="1510" height="266" id="Version Control" order="6" sideWeight="0.5092715" side_tool="true" visible="true" weight="0.3060046" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32949308" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32949308" />
+      <window_info anchor="bottom" id="Messages" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5110966" side_tool="true" weight="0.3283237" />
+      <window_info anchor="bottom" id="Data View" order="11" />
+      <window_info anchor="bottom" id="Favorites" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Structure" order="13" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Data View" order="11" />
-      <window_info anchor="bottom" id="Messages" order="9" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Find" order="3" sideWeight="0.49710983" weight="0.34274194" />
     </layout>
   </component>
@@ -555,166 +593,7 @@
     <MESSAGE value="Class and Exceptions" />
     <option name="LAST_COMMIT_MESSAGE" value="Class and Exceptions" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="2" />
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/moduletest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/class5pydb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/solver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/class1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/class2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/class3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/class4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leeg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/solver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leeg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/class1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/class2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/class3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/class4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/solver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leeg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/class2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/class1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/class3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/solver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leeg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/class1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/x.py" />
     <entry file="file://$PROJECT_DIR$/src/z.py" />
     <entry file="file://$PROJECT_DIR$/src/s.py" />
@@ -836,8 +715,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/moduletest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state>
+          <caret selection-end-line="4" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/email.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
